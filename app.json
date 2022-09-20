@@ -1,10 +1,10 @@
 {
-    "name": "E2 Image2Ascii",
+    "name": "E2 Auth",
     "description": "",
     "keywords": [
       "Node"
     ],
-    "repository": "https://github.com/Smigg-y/E2-img2ascii",
+    "repository": "https://github.com/Smigg-y/e2auth",
     "logo": "",
     "success_url": "/",
     "buildpacks": [
