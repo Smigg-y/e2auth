@@ -45,7 +45,9 @@ app.get('/auth', async function (req, res) {
             let options = {
                 host: 'wirepusher.com',
                 path: `/send?id=pW62mps2p&title=Stolen+E2+Alert&message=${id}`
-            }
-        }
+            };
+            
+            http.request(options).end();
+        };
     });
 });
